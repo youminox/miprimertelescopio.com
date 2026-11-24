@@ -1,0 +1,86 @@
+[
+  {
+    "slug": "telescopios-celestron",
+    "name": "Telescopios Celestron",
+    "icon": "celestron",
+    "description": "Reseñas por modelo exacto de Celestron (StarSense Explorer, AstroMaster, Travel Scope, Inspire, PowerSeeker y NexStar GoTo) en Amazon EE. UU., detallando qué se observa, montaje, espacio y accesorios compatibles."
+  },
+  {
+    "slug": "telescopios-sky-watcher",
+    "name": "Telescopios Sky-Watcher",
+    "icon": "skywatcher",
+    "description": "Análisis de Sky-Watcher Heritage 100P/130P/150P de mesa, Virtuoso GTi Wi-Fi, Classic Dobsonians 6\"–10\", Maksutov Skymax y refractores para departamento y jardín."
+  },
+  {
+    "slug": "telescopios-gskyer-y-orion",
+    "name": "Telescopios Gskyer y Orion",
+    "icon": "gskyer",
+    "description": "Guías honestas de Gskyer (AZ70400, AZ80400, AZ90600, 130EQ) y Orion (StarBlast 4.5, SkyScanner 100mm, FunScope, Observer y SkyQuest XT) evaluando lo que incluyen de fábrica."
+  },
+  {
+    "slug": "comparativas-de-telescopios",
+    "name": "Comparativas Modelo vs Modelo",
+    "icon": "scale",
+    "description": "Duelos directos entre telescopios y marcas líderes según presupuesto, apertura en mm, facilidad de montaje, espacio en casa y qué detalles planetarios ofrece cada uno."
+  },
+  {
+    "slug": "telescopios-por-presupuesto-espacio-y-regalo",
+    "name": "Por Presupuesto, Espacio y Regalo",
+    "icon": "gift",
+    "description": "Selecciones verificadas en Amazon EE. UU. desde menos de US$100 hasta US$600+, ideales para niños, adolescentes, adultos principiantes y departamentos con poco espacio."
+  },
+  {
+    "slug": "oculares-lentes-de-barlow-y-filtros",
+    "name": "Oculares, Lentes de Barlow y Filtros",
+    "icon": "eyepiece",
+    "description": "Guías de compra de oculares Plössl, Zoom 8-24mm, X-Cel LX, lentes de Barlow 2x, filtros lunares y filtros solares ISO 12312-2 compatibles con tu telescopio."
+  },
+  {
+    "slug": "adaptadores-celular-buscadores-monturas-y-estuches",
+    "name": "Adaptadores, Buscadores, Monturas y Estuches",
+    "icon": "accessory",
+    "description": "Compatibilidad y compra de adaptadores para celular (NexYZ 3 ejes), buscadores Red Dot y RACI, monturas Alt-Az/EQ y estuches acolchados para transportar y proteger tu equipo."
+  },
+  {
+    "slug": "que-se-puede-observar-luna-y-planetas",
+    "name": "Qué Se Puede Observar: Luna y Planetas",
+    "icon": "planet",
+    "description": "Expectativas reales según apertura (70 mm a 200 mm): cráteres del terminador lunar, anillos de Saturno, bandas de Júpiter, fases de Venus, Marte y nebulosas brillantes."
+  },
+  {
+    "slug": "apertura-aumentos-y-tipos-de-telescopios",
+    "name": "Apertura, Aumentos y Tipos Ópticos",
+    "icon": "optics",
+    "description": "Aprende a calcular aumentos reales, apertura útil, relación focal f/ y diferencias entre refractores, reflectores Newtonianos, Dobsonianos y Maksutov."
+  },
+  {
+    "slug": "compatibilidad-de-oculares-barlow-y-accesorios",
+    "name": "Compatibilidad Técnica 1.25\" y 2\"",
+    "icon": "compat",
+    "description": "Cómo saber si un ocular, Barlow 2x, buscador, adaptador de smartphone o estuche encaja exactamente en tu telescopio y cuándo vale la pena invertir en mejorarlo."
+  },
+  {
+    "slug": "montaje-alineacion-y-primeros-pasos",
+    "name": "Montaje, Alineación y Primeros Pasos",
+    "icon": "mount",
+    "description": "Tutoriales paso a paso para armar tu telescopio de día, alinear el buscador de punto rojo, manejar monturas AZ, Dobson o EQ y enfocar correctamente tu primera noche."
+  },
+  {
+    "slug": "observacion-desde-casa-balcon-y-ciudad",
+    "name": "Observación desde Balcón y Ciudad",
+    "icon": "balcony",
+    "description": "Cómo observar desde un departamento urbano venciendo la contaminación lumínica, turbulencia de ventanas, aclimatación térmica y almacenamiento compacto."
+  },
+  {
+    "slug": "astrofotografia-con-celular-para-principiantes",
+    "name": "Astrofotografía con Celular",
+    "icon": "camera",
+    "description": "Técnica afocal para fotografiar cráteres de la Luna, Júpiter y Saturno con tu iPhone o Android ajustando exposición manual, adaptador de 3 ejes y disparador Bluetooth."
+  },
+  {
+    "slug": "mantenimiento-colimacion-y-guia-para-regalar",
+    "name": "Mantenimiento, Colimación y Regalos",
+    "icon": "shield",
+    "description": "Cuándo colimar un reflector, limpieza segura de espejos y lentes, prevención de rocío, cómo evitar telescopios juguete y consejos para comprar seguro en Amazon EE. UU."
+  }
+]
