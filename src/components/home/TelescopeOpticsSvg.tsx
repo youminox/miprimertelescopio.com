@@ -376,9 +376,9 @@ export default function TelescopeOpticsSvg() {
 
           {/* Barra inferior informativa */}
           <rect
-            x="22"
+            x="12"
             y="246"
-            width="416"
+            width="436"
             height="42"
             rx="12"
             fill="rgba(255,255,255,0.08)"
@@ -390,7 +390,7 @@ export default function TelescopeOpticsSvg() {
             textAnchor="middle"
             fontFamily="Outfit, sans-serif"
             fontWeight="800"
-            fontSize="11.5"
+            fontSize="11"
             fill="#fef08a"
           >
             {cur.badge}
@@ -401,7 +401,7 @@ export default function TelescopeOpticsSvg() {
             textAnchor="middle"
             fontFamily="Inter, sans-serif"
             fontWeight="600"
-            fontSize="10"
+            fontSize="9.2"
             fill="#bae6fd"
           >
             {cur.models}

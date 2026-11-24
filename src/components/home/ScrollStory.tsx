@@ -335,10 +335,10 @@ export default function ScrollStory() {
                 <g
                   className="phone-alert"
                   opacity="0"
-                  transform="translate(40 18)"
+                  transform="translate(24 18)"
                 >
                   <rect
-                    width="320"
+                    width="352"
                     height="48"
                     rx="14"
                     fill="#ffffff"
@@ -371,7 +371,7 @@ export default function ScrollStory() {
                     y="35"
                     fontFamily="Inter, sans-serif"
                     fontWeight="600"
-                    fontSize="10"
+                    fontSize="9.5"
                     fill="#3730a3"
                   >
                     Ocular Plössl · Barlow 2x · Adaptador NexYZ Verificados
