@@ -17,8 +17,6 @@ export interface AmazonProductRecommendation {
   title: string;
   subtitle: string;
   features: string[];
-  rating: string;
-  reviewsCount: string;
   categoryType: AmazonCategoryType;
   specs?: {
     budgetRange: string;
@@ -93,11 +91,9 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
       "Incluye de fábrica oculares 25 mm (36x) y 10 mm (90x), lente de Barlow 2x (180x), diagonal 90° y buscador StarPointer",
       "Enfocador estándar de 1.25\" compatible con mejoras como Zoom 8-24mm, filtro lunar y adaptador de fotos NexYZ",
     ],
-    rating: "4.6",
-    reviewsCount: "4.900+",
     categoryType: "refractor",
     specs: {
-      budgetRange: "US$189 – US$229 en Amazon EE. UU.",
+      budgetRange: "precio variable en Amazon en Amazon EE. UU.",
       apertureAndMount: "80 mm · f/11.2 · Montaje Altacimutal fácil (~10 min)",
       spaceAndTargets:
         "Trípode plegable ligero (~4.1 kg) · Cráteres lunares, Júpiter, anillos de Saturno y M42",
@@ -122,11 +118,9 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
       "Incluye de serie oculares 25 mm y 10 mm de 1.25\", buscador Red Dot, base StarSense y trípode de acero regulable",
       "Ahorra frustraciones desde la primera noche encontrando objetos invisibles a simple vista desde ciudad o campo",
     ],
-    rating: "4.6",
-    reviewsCount: "3.400+",
     categoryType: "dobsonian",
     specs: {
-      budgetRange: "US$399 – US$479 en Amazon EE. UU.",
+      budgetRange: "precio variable en Amazon en Amazon EE. UU.",
       apertureAndMount: "130 mm · f/5 · Montura DX Alt-Az muy estable (~15 min)",
       spaceAndTargets:
         "Requiere rincón medio (8.1 kg) · Planetas con alto contraste + cielo profundo brillante",
@@ -151,11 +145,9 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
       "Incluye de fábrica oculares de 20 mm y 10 mm (1.25\"), diagonal de imagen derecha 90° y buscador StarPointer integrado",
       "Cero colimación requerida: perfecto para quienes buscan sacar el telescopio y observar en minutos",
     ],
-    rating: "4.5",
-    reviewsCount: "6.800+",
     categoryType: "refractor",
     specs: {
-      budgetRange: "US$169 (70AZ) – US$279 (90AZ) en Amazon",
+      budgetRange: "precio variable en Amazon (70AZ) – precio variable en Amazon (90AZ) en Amazon",
       apertureAndMount: "70–90 mm · f/11–f/13 · Montaje AZ sin herramientas",
       spaceAndTargets:
         "Balcón o jardín mediano · Luna nítida, bandas de Júpiter, Saturno y observación terrestre",
@@ -179,11 +171,9 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
       "La versión DX incluye de fábrica adaptador de celular, disparador remoto Bluetooth, Barlow 2x, 20mm y 10mm",
       "Imagen erecta ideal para principiantes jóvenes y observación lunar sin invertir la imagen",
     ],
-    rating: "4.4",
-    reviewsCount: "9.100+",
     categoryType: "refractor",
     specs: {
-      budgetRange: "US$89 – US$125 en Amazon EE. UU.",
+      budgetRange: "precio variable en Amazon en Amazon EE. UU.",
       apertureAndMount: "70 mm · f/5.7 · Montaje ultrarrápido (3 min)",
       spaceAndTargets:
         "Mínimo espacio (cabe en mochila) · Cráteres lunares, lunas de Júpiter y Saturno pequeño",
@@ -207,11 +197,9 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
       "Seguimiento motorizado continuo ideal para que niños y visitas observen Saturno sin que salga del ocular",
       "Diseño Schmidt-Cassegrain muy compacto que se guarda sin problemas dentro de un armario de departamento",
     ],
-    rating: "4.7",
-    reviewsCount: "5.200+",
     categoryType: "goto-catadioptric",
     specs: {
-      budgetRange: "US$579 (4SE) – US$1,099 (6SE) en Amazon",
+      budgetRange: "precio variable en Amazon (4SE) – precio variable en Amazon (6SE) en Amazon",
       apertureAndMount: "102–150 mm · f/10–f/13 · Montura motorizada GoTo (~10 min)",
       spaceAndTargets:
         "Tubo corto para balcón/clóset · Planetas con detalle sublime, Luna y cielo profundo",
@@ -235,11 +223,9 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
       "Llega prácticamente armado de caja: despliega los dos puntales FlexTube y observa en 60 segundos",
       "Ocupa apenas 38×38 cm guardado en una repisa o clóset de departamento",
     ],
-    rating: "4.8",
-    reviewsCount: "2.100+",
     categoryType: "dobsonian",
     specs: {
-      budgetRange: "US$245 (130P) – US$310 (150P) en Amazon EE. UU.",
+      budgetRange: "precio variable en Amazon (130P) – precio variable en Amazon (150P) en Amazon EE. UU.",
       apertureAndMount: "130–150 mm · f/5 · Base Dobson de mesa lista en 1 min",
       spaceAndTargets:
         "Plegado ocupa <40 cm · Anillos de Saturno, bandas de Júpiter, cráteres y nebulosas",
@@ -264,11 +250,9 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
       "Apertura de 150 mm (6 pulgadas) capaz de resolver cúmulos globulares, división de Cassini y detalles en Júpiter",
       "Enfocador helicoidal suave compatible con oculares 1.25\", filtros lunares y adaptadores de smartphone ligeros",
     ],
-    rating: "4.7",
-    reviewsCount: "850+",
     categoryType: "goto-catadioptric",
     specs: {
-      budgetRange: "US$460 – US$525 en Amazon EE. UU.",
+      budgetRange: "precio variable en Amazon en Amazon EE. UU.",
       apertureAndMount: "150 mm · f/5 · Base de mesa Wi-Fi GoTo (~5 min)",
       spaceAndTargets:
         "Compacto plegado para departamento · Planetas seguidos automáticamente y cielo profundo",
@@ -292,11 +276,9 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
       "Enfocador Crayford de 2\" con adaptador incluido para usar tanto oculares gran angular de 2\" como 1.25\" estándar",
       "Incluye de fábrica buscador óptico recto 9x50, oculares Super Plössl 25 mm y 10 mm y control de fricción lateral",
     ],
-    rating: "4.8",
-    reviewsCount: "1.400+",
     categoryType: "dobsonian",
     specs: {
-      budgetRange: "US$575 – US$650 en Amazon EE. UU.",
+      budgetRange: "precio variable en Amazon en Amazon EE. UU.",
       apertureAndMount: "203 mm (8\") · f/5.9 · Base Dobson suelo ultra estable (3 min)",
       spaceAndTargets:
         "Requiere patio/rincón amplio (~22 kg total) · Cielo profundo serio y planetas con gran detalle",
@@ -320,11 +302,9 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
       "Distancia focal larga ideal para lograr altos aumentos planetarios cómodos con oculares Plössl de 12–15 mm",
       "Compatible con colas de milano Vixen, monturas AZ-GTi / AZ5 y accesorios estándar de 1.25\"",
     ],
-    rating: "4.7",
-    reviewsCount: "720+",
     categoryType: "goto-catadioptric",
     specs: {
-      budgetRange: "US$420 – US$680 (OTA o con montura) en Amazon",
+      budgetRange: "precio variable en Amazon (OTA o con montura) en Amazon",
       apertureAndMount: "102–127 mm · f/12–f/13 · Riel Vixen estándar",
       spaceAndTargets:
         "Tubo ultracorto (33 cm) para balcón · Máxima nitidez en Luna, Júpiter, Saturno y Marte",
@@ -338,7 +318,7 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
 
   GSKYER_AZ70400_AZ90600: {
     id: "gskyer-az70400-az90600",
-    badge: "🎁 #1 Top Ventas Económico para Regalo (< US$110) con Mochila y Celular",
+    badge: "🎁 #1 Top Ventas Económico para Regalo con Mochila y Celular",
     title:
       "Gskyer Telescope 70mm Aperture 400mm AZ Mount (AZ70400) / Gskyer 90mm AZ90600 — Kit Completo",
     subtitle:
@@ -348,11 +328,9 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
       "Muestra cráteres de la Luna definidos, las 4 lunas de Júpiter y los anillos de Saturno visibles como óvalo luminoso",
       "Conviene mejorar su ocular básico añadiendo un Plössl 1.25\" o Barlow 2x de cristal para elevar mucho la nitidez",
     ],
-    rating: "4.4",
-    reviewsCount: "26.500+",
     categoryType: "refractor",
     specs: {
-      budgetRange: "US$89 (70mm) – US$169 (90mm) en Amazon EE. UU.",
+      budgetRange: "precio variable en Amazon (70mm) – precio variable en Amazon (90mm) en Amazon EE. UU.",
       apertureAndMount: "70–90 mm · Montaje AZ ligero en aluminio (~8 min)",
       spaceAndTargets:
         "Bolso compacto incluido · Luna espectacular, Júpiter, Saturno pequeño y paisaje",
@@ -377,11 +355,9 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
       "Incluye de serie dos oculares de cristal Kellner/Plössl de 1.25\", buscador EZ Finder II de punto rojo y tapa",
       "Cabe cómodamente en una repisa o mesa lateral y se saca al balcón en un solo viaje",
     ],
-    rating: "4.7",
-    reviewsCount: "2.700+",
     categoryType: "dobsonian",
     specs: {
-      budgetRange: "US$149 (SkyScanner 100) – US$249 (StarBlast 4.5) en Amazon",
+      budgetRange: "precio variable en Amazon (SkyScanner 100) – precio variable en Amazon (StarBlast 4.5) en Amazon",
       apertureAndMount: "100–114 mm · Base de mesa prearmada (0 min montaje)",
       spaceAndTargets:
         "Mesa/estante (~5.9 kg) · Cráteres lunares, Saturno, Júpiter y cúmulos abiertos",
@@ -405,11 +381,9 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
       "Recubrimiento múltiple completo (Fully Multi-Coated) y goma ocular plegable cómoda incluso si usas anteojos",
       "En el maletín Celestron Kit añade 5 oculares Plössl, Barlow 2x y 7 filtros de color + lunar con espuma protectora",
     ],
-    rating: "4.7",
-    reviewsCount: "11.400+",
     categoryType: "eyepiece-barlow",
     specs: {
-      budgetRange: "US$69 (X-Cel LX / Zoom) – US$159 (Maletín Kit) en Amazon",
+      budgetRange: "precio variable en Amazon (X-Cel LX / Zoom) – precio variable en Amazon (Maletín Kit) en Amazon",
       apertureAndMount: "Estándar 1.25\" universal · Instalación en 5 segundos",
       spaceAndTargets:
         "De bolsillo / maletín rígido · Aumenta contraste en Saturno, Júpiter y cráteres",
@@ -434,11 +408,9 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
       "Mantiene el cómodo alivio ocular de un ocular de 20–25 mm mientras te entrega el aumento de uno de 10–12 mm",
       "Nota de seguridad solar: para observar el Sol usa siempre filtros frontales certificados ISO 12312-2 como Celestron EclipSmart",
     ],
-    rating: "4.7",
-    reviewsCount: "7.300+",
     categoryType: "eyepiece-barlow",
     specs: {
-      budgetRange: "US$22 (Filtro Lunar) – US$45 (Omni Barlow 2x) en Amazon",
+      budgetRange: "precio variable en Amazon (Filtro Lunar) – precio variable en Amazon (Omni Barlow 2x) en Amazon",
       apertureAndMount: "Barrilete 1.25\" estándar con tornillo de latón",
       spaceAndTargets:
         "Tamaño compacto · Duplica oculares para Júpiter, Saturno y detalles lunares",
@@ -463,11 +435,9 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
       "Abrazadera firme apta para casi todo ocular de 1.25\", 2\" y telescopios terrestres",
       "Combínalo con un disparador Bluetooth o temporizador de 3 s para sacar fotos lunares nítidas sin vibración",
     ],
-    rating: "4.5",
-    reviewsCount: "14.800+",
     categoryType: "phone-finder",
     specs: {
-      budgetRange: "US$45 – US$59 en Amazon EE. UU.",
+      budgetRange: "precio variable en Amazon en Amazon EE. UU.",
       apertureAndMount: "Abrazadera universal oculares 35 mm – 60 mm (1.25\" / 2\")",
       spaceAndTargets:
         "Cabe en bolso de accesorios · Fotos y videos afocales de Luna, Júpiter y Saturno",
@@ -492,11 +462,9 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
       "Buscador Celestron StarPointer Pro con doble retícula circular o RACI 9x50 con zapata estándar Synta/Vixen",
       "Colimador láser o Cheshire 1.25\" esencial si eliges reflectores Newtonianos o Dobsonians",
     ],
-    rating: "4.6",
-    reviewsCount: "4.200+",
     categoryType: "mount-case",
     specs: {
-      budgetRange: "US$29 (Buscador/Colimador) – US$69 (Estuche) en Amazon",
+      budgetRange: "precio variable en Amazon (Buscador/Colimador) – precio variable en Amazon (Estuche) en Amazon",
       apertureAndMount: "Zapata Vixen/Synta · Estuches 32\" (80 cm) y 40\" (100 cm)",
       spaceAndTargets:
         "Almacenaje seguro en clóset o auto · Apuntado rápido sin dolores de cuello",
@@ -713,7 +681,7 @@ export function getContextualAmazonProducts(
       sectionTitle:
         "Mejores Telescopios para Regalar y Empezar por Presupuesto en Amazon",
       sectionSubtitle:
-        "Desde kits completos por menos de US$100 hasta modelos guiados por app y de mesa para poco espacio:",
+        "Desde kits completos precio variable en Amazon hasta modelos guiados por app y de mesa para poco espacio:",
       products: [
         CATALOG.CELESTRON_STARSENSE_LT_80AZ,
         CATALOG.ORION_STARBLAST_45,

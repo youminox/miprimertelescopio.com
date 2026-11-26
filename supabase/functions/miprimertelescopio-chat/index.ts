@@ -61,8 +61,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
       "Celestron StarSense Explorer LT 80AZ — Refractor 80 mm con App Guía para Celular, Oculares 25mm/10mm y Barlow 2x",
     subtitle:
       "Encuentra la Luna, Júpiter, Saturno y la Nebulosa de Orión guiado paso a paso en la pantalla de tu teléfono sin alinear con estrellas complejas. Incluye buscador StarPointer, diagonal 90° y trípode ligero.",
-    rating: "4.6",
-    reviewsCount: "4.900+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("Celestron StarSense Explorer LT 80AZ Smartphone App-Enabled Telescope")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("Celestron StarSense Explorer LT 80AZ telescopio")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -73,8 +71,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
       "Celestron StarSense Explorer DX 130AZ — Reflector Newtoniano 130 mm con Controles Finos y App StarSense",
     subtitle:
       "Apertura de 130 mm que recoge casi 3 veces más luz que un 80 mm: revela cráteres nítidos, bandas de Júpiter, división de Cassini en Saturno y docenas de cúmulos y nebulosas desde cielos oscuros.",
-    rating: "4.6",
-    reviewsCount: "3.400+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("Celestron StarSense Explorer DX 130AZ Newtonian Reflector Telescope")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("Celestron StarSense Explorer DX 130AZ telescopio")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -85,8 +81,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
       "Celestron AstroMaster 70AZ / 90AZ — Refractor Altacimutal con Trípode de Acero, Oculares 20mm/10mm y Buscador",
     subtitle:
       "Montaje en minutos sin colimación: imagen derecha para Luna, planetas y paisaje terrestre diurno desde balcón o patio.",
-    rating: "4.5",
-    reviewsCount: "6.800+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("Celestron AstroMaster 70AZ 90AZ Refractor Telescope")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("Celestron AstroMaster 70AZ 90AZ telescopio")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -97,8 +91,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
       "Celestron NexStar 4SE / 6SE Schmidt-Cassegrain GoTo — Base de Datos 40,000 Objetos y Seguimiento Motorizado",
     subtitle:
       "Tubo ultracompacto que cabe en un clóset pequeño: busca y sigue automáticamente Júpiter, Saturno y la Luna para observar en familia sin perder el planeta del ocular.",
-    rating: "4.7",
-    reviewsCount: "5.200+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("Celestron NexStar 6SE 4SE Computerized Telescope")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("Celestron NexStar 6SE 4SE telescopio")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -109,8 +101,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
       "Sky-Watcher Heritage 130P / 150P FlexTube Tabletop Dobsonian — Apertura 130–150 mm Colapsable",
     subtitle:
       "El favorito mundial de astrónomos principiantes: se pliega para guardarse en una repisa y ofrece óptica parabólica de 130/150 mm con montaje en 60 segundos.",
-    rating: "4.8",
-    reviewsCount: "2.100+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("Sky-Watcher Heritage 130P 150P Tabletop Dobsonian Telescope")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("Sky-Watcher Heritage 130P 150P telescopio Dobson")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -121,8 +111,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
       "Sky-Watcher Virtuoso GTi 150P Tabletop GoTo Dobsonian — Control Wi-Fi SynScan desde Smartphone",
     subtitle:
       "Combina apertura seria de 150 mm con apuntado y seguimiento automático controlado desde el celular, ocupando mínimo espacio en casa.",
-    rating: "4.7",
-    reviewsCount: "850+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("Sky-Watcher Virtuoso GTi 150P Tabletop GoTo Telescope")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("Sky-Watcher Virtuoso GTi 150P telescopio")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -133,20 +121,16 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
       "Sky-Watcher Classic 200P (8\") Dobsonian / Skymax 127 Maksutov-Cassegrain — Enfocador Dual 1.25\" y 2\"",
     subtitle:
       "El Classic 200P muestra galaxias y detalles finos en Saturno y Júpiter; el Skymax 127 brinda contraste planetario extremo en un tubo de apenas 33 cm para balcones estrechos.",
-    rating: "4.8",
-    reviewsCount: "1.900+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("Sky-Watcher Classic 200P 8-inch Dobsonian Skymax 127")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("Sky-Watcher Classic 200P Dobson Skymax 127 telescopio")}&tag=${AMAZON_TAG_ES}`,
   },
   "gskyer-az70400-az90600": {
     id: "gskyer-az70400-az90600",
-    badge: "🎁 #1 Más Vendido para Regalo Económico (< US$110) con Bolso y Adaptador",
+    badge: "🎁 #1 Más Vendido para Regalo Económico con Bolso y Adaptador",
     title:
       "Gskyer Telescope 70mm Aperture 400mm AZ Mount (AZ70400) / 90mm AZ90600 — Mochila, 3 Oculares, Barlow 3x y Adaptador Celular",
     subtitle:
       "Kit completo listo para regalar desde el primer día: muestra cráteres lunares nítidos, fases de Venus y lunas de Júpiter en un montaje ultraportátil.",
-    rating: "4.4",
-    reviewsCount: "26.500+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("Gskyer Telescope 70mm Aperture 400mm AZ Mount AZ70400 AZ90600")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("Gskyer telescopio astronomico 70mm 90mm adultos ninos")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -157,8 +141,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
       "Orion StarBlast 4.5 Astro Reflector (114 mm) / Orion SkyScanner 100mm Tabletop — Base Estable y Montado de Fábrica",
     subtitle:
       "Viene preensamblado en caja: solo apóyalo en una mesa firme en el patio o balcón. Espejo parabólico de gran nitidez sin trípodes temblorosos.",
-    rating: "4.7",
-    reviewsCount: "2.700+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("Orion StarBlast 4.5 Astro Reflector Telescope SkyScanner 100mm")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("Orion StarBlast 4.5 SkyScanner 100mm telescopio")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -169,8 +151,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
       "Celestron 8-24mm Zoom Eyepiece (1.25\") / Celestron X-Cel LX 9mm & Kit Oculares + Filtros Lunares",
     subtitle:
       "Compatible con el 99 % de telescopios Celestron, Sky-Watcher, Gskyer y Orion con enfocador de 1.25\": multiplica el contraste planetario y la comodidad visual frente a los oculares básicos.",
-    rating: "4.7",
-    reviewsCount: "11.400+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("Celestron 8-24mm Zoom Eyepiece 1.25 X-Cel LX Eyepiece Filter Kit")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("Celestron ocular zoom 8-24mm 1.25 kit oculares filtros")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -181,8 +161,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
       "Celestron Omni 2x Barlow Lens (1.25\") + Filtro Lunar Neutral Density / Polarizador Variable",
     subtitle:
       "Duplica los aumentos de cualquier ocular de 1.25\" sin perder comodidad ocular y reduce el deslumbramiento de la Luna llena para ver cráteres con detalle.",
-    rating: "4.7",
-    reviewsCount: "7.300+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("Celestron Omni 2x Barlow Lens 1.25 Moon Filter")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("Celestron Omni lente Barlow 2x 1.25 filtro lunar")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -193,8 +171,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
       "Celestron NexYZ 3-Axis Universal Smartphone Adapter + Buscador StarPointer Pro / Estuche Acolchado",
     subtitle:
       "Alineación fina en ejes X, Y y Z en 30 segundos para centrar la cámara de iPhone o Android sobre oculares de 1.25\" y 2\" y fotografiar la Luna con disparador Bluetooth.",
-    rating: "4.5",
-    reviewsCount: "14.800+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("Celestron NexYZ 3-Axis Universal Smartphone Adapter Telescope Case StarPointer")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("Celestron NexYZ adaptador smartphone telescopio funda acolchada")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -619,7 +595,7 @@ Deno.serve(async (req: Request) => {
 
 Tu doble misión es:
 1. RESPONDER TODAS LAS DUDAS DEL USUARIO con rigor astronómico honesto y lenguaje cercano en español:
-   - CRITERIOS REALES DE COMPRA: Evalúa siempre según presupuesto (<$110 Gskyer AZ70400/AZ90600, $150–$260 Celestron StarSense Explorer LT 80AZ o Sky-Watcher Heritage 130P/Orion StarBlast 4.5, $280–$450 Celestron StarSense DX 130AZ / Heritage 150P / Virtuoso GTi, $500+ Sky-Watcher Classic 200P o Celestron NexStar 4SE/6SE), apertura (mm), facilidad de montaje (5 min sin colimar en refractores o mesa Dobson vs EQ) y espacio disponible en casa/balcón.
+   - CRITERIOS REALES DE COMPRA: Evalúa siempre según presupuesto, apertura (mm), facilidad de montaje (5 min sin colimar en refractores o mesa Dobson vs EQ) y espacio disponible en casa/balcón.
    - QUÉ SE PUEDE OBSERVAR Y ACCESORIOS DE FÁBRICA: Explica honestamente qué verá el usuario (cráteres del terminador lunar, 4 lunas y bandas de Júpiter, anillos de Saturno, cúmulos y Nebulosa de Orión en blanco y negro suave — nunca fotos Hubble a color) y qué incluye cada modelo de serie (oculares de 25mm/20mm/10mm, Barlow, diagonal, buscador).
    - COMPATIBILIDAD DE ACCESORIOS: Indica siempre si un ocular, lente de Barlow 2x, buscador (zapata Synta/Vixen vs tornillos), adaptador de celular (NexYZ 3 ejes para 1.25"/2"), montura o estuche acolchado es compatible con su tubo y cuándo vale la pena comprarlo frente a usar el kit básico.
    - SEGURIDAD SOLAR CRÍTICA: Si preguntan por el Sol, eclipses o manchas solares, advierte jamás mirar al Sol ni proyectar sin un filtro solar frontal certificado ISO 12312-2 bien asegurado (nunca filtros de rosca en el ocular).
